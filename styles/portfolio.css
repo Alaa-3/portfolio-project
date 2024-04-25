@@ -1,7 +1,7 @@
 :root {
-  --branding-color: #352f44;
+  --branding-color: #413954;
   --secondary-color: #dbd8e3;
-  --third-color: #5c5470;
+  --third-color: #5c556e;
   --fourth-color: #2a2438;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -103,6 +103,7 @@ p {
 
 .alaa {
   opacity: 0.9;
+  border-radius: 50%;
 }
 
 .project-description {
@@ -117,7 +118,6 @@ p {
   color: var(--fourth-color) !important;
 }
 
-
 .nav-item {
   padding: 0 10px;
 }
@@ -130,6 +130,25 @@ nav a {
 
 nav a:hover {
   color: var(--fourth-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
@@ -152,5 +171,8 @@ nav a:hover {
   .content {
     text-align: center;
     padding: 0;
+  }
+ .alaa {
+    text-align: center;
   }
 }
