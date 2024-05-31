@@ -114,6 +114,14 @@ p {
   box-shadow: 0 0 6px var(--third-color);
 }
 
+.links {
+  color: var(--branding-color);
+  opacity: 0.6;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+}
+
 .project-description {
   padding: 120px 60px 0;
 }
